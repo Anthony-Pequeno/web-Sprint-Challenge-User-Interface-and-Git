@@ -185,16 +185,22 @@ footer nav a {
 }
 
 a {
-    text-decoration: black none;
+    text-decoration: none;
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    align-items: center;
+    width: 100%;
 }
 
 header nav {
-    
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 20px 2%;
+}
+
+header img {
+    display: inline-block;
+    float: left;
 }
